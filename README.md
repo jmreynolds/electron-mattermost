@@ -1,23 +1,9 @@
-# electron-mattermost
-[![Circle CI](https://circleci.com/gh/yuya-oc/electron-mattermost.svg?style=svg)](https://circleci.com/gh/yuya-oc/electron-mattermost)
+This is strictly my personal fork of the [official repo](https://github.com/yuya-oc/electron-mattermost)
 
-[Electron](http://electron.atom.io/)-based desktop application for [Mattermost](http://www.mattermost.org/)
+I'm changing a few minor details - and noone should be under any expectation that I'm keeping this fork completely current with the main branch. That said, if you want to play with it, I haven't changed any of the significant details yet - so here's the usage and config instructions.
 
-## Features
+Have fun!
 
-### Desktop integration
-* Tabs for multiple teams
-* Desktop Notification
-  * Windows 10: Toast
-  * Windows 7-8.1: Balloon (fallback behavior, so lesser support)
-  * OS X: Notification Center
-  * Linux: libnotify ([Electron's notification spec](http://electron.atom.io/docs/v0.36.0/tutorial/desktop-environment-integration/#linux))
-* Badges for unread channels and mention
-* Resident application
-
-### Pre-packaged
-You don't have to install any other software.
-Packages are available at [release page](http://github.com/yuya-oc/electron-mattermost/releases).
 
 ## Usage
 
